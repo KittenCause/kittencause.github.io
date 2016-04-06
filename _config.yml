@@ -1,0 +1,9 @@
+# Site settings
+title: Kitten Cause
+email: adairkittencause@gmail.com
+description: "We are an organization raising funds for the Adair County Humane Society so that they may administer FIP tests to the cats they care for."
+baseurl: ""
+url: "http://kittencause.org"
+
+# Build settings
+markdown: kramdown
