@@ -9,16 +9,13 @@
 {% include head.html %}
 
 <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
         <div class="wrapper">
-            {{ content }}
+            {% include header.html %}
+            <div class="page-content">
+                {{ content }}
+            </div>
         </div>
-    </div>
-
-    {% include footer.html %}
+        {% include footer.html %}
 
     {% include scripts.html %}
 </body>
